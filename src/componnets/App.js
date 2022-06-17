@@ -1,11 +1,11 @@
+import { UserListContainer } from "../redux/containers/UserListContainer";
 import PostList from "./PostList";
-import UserList from "./UserList";
 
 function App() {
   return (
     <div>
       <PostList />
-      <UserList />
+      <UserListContainer />
     </div>
   );
 }
